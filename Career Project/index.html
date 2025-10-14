@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs at TechCorp - Find Your Perfect Role</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-briefcase"></i>
+                <span>TechCorp</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Jobs</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="careers.html" class="nav-link">Careers</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="sidebar-toggle" aria-label="Toggle sidebar">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#" class="btn-secondary">Sign In</a>
+                <a href="#" class="btn-primary">My Profile</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find your perfect role.</h1>
+            <p>Discover opportunities that match your skills and passion</p>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-header">
+                <h2>Search Roles</h2>
+                <p>To reveal list of choices, type</p>
+            </div>
+            
+            <div class="search-filters">
+                <div class="filter-group">
+                    <label>Location</label>
+                    <div class="filter-tags">
+                        <span class="filter-tag active">Home Office <i class="fas fa-times"></i></span>
+                        <span class="filter-tag">Nigeria <i class="fas fa-times"></i></span>
+                        <span class="filter-tag">Niger <i class="fas fa-times"></i></span>
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Keyword</label>
+                    <div class="filter-tags">
+                        <span class="filter-tag">Customer Service Specialist <i class="fas fa-times"></i></span>
+                        <span class="filter-tag">Retail Customer Care <i class="fas fa-times"></i></span>
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Teams</label>
+                    <div class="filter-tags">
+                        <span class="filter-tag">View all teams</span>
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Products and Services</label>
+                    <div class="filter-tags">
+                        <span class="filter-tag">Tech Support</span>
+                        <span class="filter-tag">Customer Care</span>
+                        <span class="filter-tag">Sales</span>
+                        <span class="filter-tag">Engineering</span>
+                        <span class="filter-tag">More</span>
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Language Skills</label>
+                    <div class="filter-tags">
+                        <span class="filter-tag">English</span>
+                        <span class="filter-tag">French</span>
+                        <span class="filter-tag">Spanish</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-actions">
+                <button class="btn-clear">Clear all</button>
+                <button class="btn-save">Save search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Results -->
+    <section class="search-results">
+        <div class="container">
+            <div class="results-header">
+                <h3>Searched for: "Customer Service Specialist - Retail Customer Care"</h3>
+                <span class="filter-count">3 Filter(s) Applied</span>
+            </div>
+            
+            <div class="results-content">
+                <div class="no-results">
+                    <h4>There are no results that match your search.</h4>
+                    <p>Please try different search criteria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay"></div>
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-title">
+                <h3>Job Dashboard</h3>
+                <p>Manage your career search</p>
+            </div>
+            <button class="sidebar-close" aria-label="Close sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="sidebar-content">
+            <!-- Search Stats -->
+            <div class="sidebar-stats">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">47</span>
+                        <span class="stat-label">Active Searches</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Applications</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="sidebar-section">
+                <div class="sidebar-section-header">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Quick Actions</h4>
+                </div>
+                <div class="quick-actions">
+                    <button class="quick-action-btn">
+                        <i class="fas fa-plus"></i>
+                        <span>New Search</span>
+                    </button>
+                    <button class="quick-action-btn">
+                        <i class="fas fa-filter"></i>
+                        <span>Advanced Filters</span>
+                    </button>
+                    <button class="quick-action-btn">
+                        <i class="fas fa-bell"></i>
+                        <span>Job Alerts</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Saved Searches -->
+            <div class="sidebar-section">
+                <div class="sidebar-section-header">
+                    <i class="fas fa-bookmark"></i>
+                    <h4>Saved Searches</h4>
+                    <span class="section-count">3</span>
+                </div>
+                <ul class="sidebar-list">
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <div class="link-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="link-content">
+                                <span class="link-title">Software Engineer</span>
+                                <span class="link-subtitle">Remote • Full-time</span>
+                            </div>
+                            <div class="link-meta">
+                                <span class="link-count">12</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <div class="link-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="link-content">
+                                <span class="link-title">Marketing Manager</span>
+                                <span class="link-subtitle">Lagos • Hybrid</span>
+                            </div>
+                            <div class="link-meta">
+                                <span class="link-count">8</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <div class="link-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="link-content">
+                                <span class="link-title">Data Analyst</span>
+                                <span class="link-subtitle">Abuja • Full-time</span>
+                            </div>
+                            <div class="link-meta">
+                                <span class="link-count">15</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Favorites -->
+            <div class="sidebar-section">
+                <div class="sidebar-section-header">
+                    <i class="fas fa-heart"></i>
+                    <h4>Favorites</h4>
+                    <span class="section-count">2</span>
+                </div>
+                <ul class="sidebar-list">
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <div class="link-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="link-content">
+                                <span class="link-title">Senior Developer</span>
+                                <span class="link-subtitle">TechCorp • $120k</span>
+                            </div>
+                            <div class="link-meta">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <div class="link-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="link-content">
+                                <span class="link-title">Product Manager</span>
+                                <span class="link-subtitle">StartupX • $95k</span>
+                            </div>
+                            <div class="link-meta">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Recently Viewed -->
+            <div class="sidebar-section">
+                <div class="sidebar-section-header">
+                    <i class="fas fa-history"></i>
+                    <h4>Recently Viewed</h4>
+                </div>
+                <ul class="sidebar-list">
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <div class="link-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="link-content">
+                                <span class="link-title">UX Designer</span>
+                                <span class="link-subtitle">Design Studio</span>
+                            </div>
+                            <div class="link-meta">
+                                <span class="time-ago">2h ago</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-link">
+                            <div class="link-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div class="link-content">
+                                <span class="link-title">DevOps Engineer</span>
+                                <span class="link-subtitle">CloudTech</span>
+                            </div>
+                            <div class="link-meta">
+                                <span class="time-ago">1d ago</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Footer Actions -->
+            <div class="sidebar-footer">
+                <button class="sidebar-action-btn primary">
+                    <i class="fas fa-cog"></i>
+                    <span>Manage Searches</span>
+                </button>
+                <button class="sidebar-action-btn secondary">
+                    <i class="fas fa-download"></i>
+                    <span>Export Data</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h5>Explore</h5>
+                    <ul>
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h5>Account</h5>
+                    <ul>
+                        <li><a href="#">Manage Your Account</a></li>
+                        <li><a href="#">Cloud Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h5>Company Values</h5>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h5>About TechCorp</h5>
+                    <ul>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Career Opportunities</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Ethics & Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Find a location near you.</p>
+                <p>Nigeria</p>
+                <p>Copyright © 2024 TechCorp Inc. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Site Map</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
